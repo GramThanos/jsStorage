@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>jsStorage Testing</title>
+		<style type="text/css">
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			body{
+				font-family: "Courier New", Courier, monospace;
+			}
+			h2{
+				font-size: 1.5em;
+				font-weight: normal;
+			}
+			#page{
+				margin: 10px;
+			}
+		</style>
+		<script type="text/javascript" src="../jsStorage-0.2.0.min.js"></script>
+	</head>
+	<body>
+
+		<div id="page">
+
+			<h2>Test localStorage</h2>
+			Test localStorage.set and localStorage.get ... 
+			<script type="text/javascript">
+				var local = new jsStorage('local');
+				local.set("test", 1);
+				if( local.get("test") === "1" ){
+					document.write("SUCCESS");
+				}
+				else{
+					document.write("FAILED");
+				}
+			</script>
+			<br>
+			Test localStorage.del ... 
+			<script type="text/javascript">
+				local.del("test");
+				if( local.get("test") === null ){
+					document.write("SUCCESS");
+				}
+				else{
+					document.write("FAILED");
+				}
+			</script>
+			<br>
+
+
+			<br><br>
+
+
+			<h2>Test sessionStorage</h2>
+			Test sessionStorage.set and sessionStorage.get ... 
+			<script type="text/javascript">
+				var session = new jsStorage('session');
+				session.set("test", 2);
+				if( session.get("test") === "2" ){
+					document.write("SUCCESS");
+				}
+				else{
+					document.write("FAILED");
+				}
+			</script>
+			<br>
+			Test sessionStorage.del ... 
+			<script type="text/javascript">
+				session.del("test");
+				if( session.get("test") === null ){
+					document.write("SUCCESS");
+				}
+				else{
+					document.write("FAILED");
+				}
+			</script>
+			<br>
+
+
+			<br><br>
+
+
+			<h2>Test cookieStorage</h2>
+			Test cookieStorage.set and cookieStorage.get ... 
+			<script type="text/javascript">
+				var cookie = new jsStorage('cookie');
+				cookie.set("test", 3);
+				if( cookie.get("test") === "3" ){
+					document.write("SUCCESS");
+				}
+				else{
+					document.write("FAILED");
+				}
+			</script>
+			<br>
+			Test cookieStorage.del ... 
+			<script type="text/javascript">
+				cookie.del("test");
+				if( cookie.get("test") === null ){
+					document.write("SUCCESS");
+				}
+				else{
+					document.write("FAILED");
+				}
+			</script>
+			<br>
+
+
+			<br><br>
+
+
+			<h2>Test windowNameStorage</h2>
+			Test windowNameStorage.set and windowNameStorage.get ... 
+			<script type="text/javascript">
+				var windowName = new jsStorage('window-name');
+				windowName.set("test", 4);
+				if( windowName.get("test") === "4" ){
+					document.write("SUCCESS");
+				}
+				else{
+					document.write("FAILED");
+				}
+			</script>
+			<br>
+			Test windowNameStorage.del ... 
+			<script type="text/javascript">
+				windowName.del("test");
+				if( windowName.get("test") === null ){
+					document.write("SUCCESS");
+				}
+				else{
+					document.write("FAILED");
+				}
+			</script>
+			<br>
+		</div>
+	</body>
+</html>
