@@ -1,9 +1,9 @@
 # jsStorage
 A simple javascript library to use as storage with the same API the :
- > localStorage
- > sessionStorage
- > cookies
- > window.name
+ * localStorage
+ * sessionStorage
+ * cookies
+ * window.name
 
 ## How to use it
 
