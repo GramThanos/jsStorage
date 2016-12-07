@@ -120,83 +120,83 @@ s.localStorage.getItem("test"); // Returns a
 
 ##### defaultStorage's methods
 
-*defaultStorage.setItem(name, value);
-*defaultStorage.set(name, value);
-*defaultStorage.getItem(name);
-*defaultStorage.get(name);
-*defaultStorage.removeItem(name);
-*defaultStorage.remove(name);
-*defaultStorage.del(name);
-*defaultStorage.key(n);
-*defaultStorage.length();
-*defaultStorage.clear();
-*defaultStorage.type();
+* defaultStorage.setItem(name, value);
+* defaultStorage.set(name, value);
+* defaultStorage.getItem(name);
+* defaultStorage.get(name);
+* defaultStorage.removeItem(name);
+* defaultStorage.remove(name);
+* defaultStorage.del(name);
+* defaultStorage.key(n);
+* defaultStorage.length();
+* defaultStorage.clear();
+* defaultStorage.type();
 
 
 ##### localStorage's methods
 
-*localStorage.setItem(name, value);
-*localStorage.set(name, value);
-*localStorage.getItem(name);
-*localStorage.get(name);
-*localStorage.removeItem(name);
-*localStorage.remove(name);
-*localStorage.del(name);
-*localStorage.key(n);
-*localStorage.length();
-*localStorage.clear();
-*localStorage.type();
-*localStorage.setDomain(domain);
+* localStorage.setItem(name, value);
+* localStorage.set(name, value);
+* localStorage.getItem(name);
+* localStorage.get(name);
+* localStorage.removeItem(name);
+* localStorage.remove(name);
+* localStorage.del(name);
+* localStorage.key(n);
+* localStorage.length();
+* localStorage.clear();
+* localStorage.type();
+* localStorage.setDomain(domain);
 
 
 ##### sessionStorage's methods
 
-*sessionStorage.setItem(name, value);
-*sessionStorage.set(name, value);
-*sessionStorage.getItem(name);
-*sessionStorage.get(name);
-*sessionStorage.removeItem(name);
-*sessionStorage.remove(name);
-*sessionStorage.del(name);
-*sessionStorage.key(n);
-*sessionStorage.length();
-*sessionStorage.clear();
-*sessionStorage.type();
-*sessionStorage.setDomain(domain);
+* sessionStorage.setItem(name, value);
+* sessionStorage.set(name, value);
+* sessionStorage.getItem(name);
+* sessionStorage.get(name);
+* sessionStorage.removeItem(name);
+* sessionStorage.remove(name);
+* sessionStorage.del(name);
+* sessionStorage.key(n);
+* sessionStorage.length();
+* sessionStorage.clear();
+* sessionStorage.type();
+* sessionStorage.setDomain(domain);
 
 
 ##### cookieStorage's methods
 
-*cookieStorage.setItem(name, value);
-*cookieStorage.set(name, value);
-*cookieStorage.getItem(name);
-*cookieStorage.get(name);
-*cookieStorage.removeItem(name);
-*cookieStorage.remove(name);
-*cookieStorage.del(name);
-*cookieStorage.key(n);
-*cookieStorage.length();
-*cookieStorage.clear();
-*cookieStorage.type();
-*cookieStorage.setDomain(domain);
+* cookieStorage.setItem(name, value);
+* cookieStorage.set(name, value);
+* cookieStorage.getItem(name);
+* cookieStorage.get(name);
+* cookieStorage.removeItem(name);
+* cookieStorage.remove(name);
+* cookieStorage.del(name);
+* cookieStorage.key(n);
+* cookieStorage.length();
+* cookieStorage.clear();
+* cookieStorage.type();
+* cookieStorage.setDomain(domain);
 
 
 ##### windowNameStorage's methods
 
-*windowNameStorage.setItem(name, value);
-*windowNameStorage.set(name, value);
-*windowNameStorage.getItem(name);
-*windowNameStorage.get(name);
-*windowNameStorage.removeItem(name);
-*windowNameStorage.remove(name);
-*windowNameStorage.del(name);
-*windowNameStorage.key(n);
-*windowNameStorage.length();
-*windowNameStorage.clear();
-*windowNameStorage.type();
-*windowNameStorage.setDomain(domain);
-*windowNameStorage.setPath(path);
-*windowNameStorage.setExpiration(days);
+* windowNameStorage.setItem(name, value);
+* windowNameStorage.set(name, value);
+* windowNameStorage.getItem(name);
+* windowNameStorage.get(name);
+* windowNameStorage.removeItem(name);
+* windowNameStorage.remove(name);
+* windowNameStorage.del(name);
+* windowNameStorage.key(n);
+* windowNameStorage.length();
+* windowNameStorage.clear();
+* windowNameStorage.type();
+* windowNameStorage.setDomain(domain);
+* windowNameStorage.setPath(path);
+* windowNameStorage.setExpiration(days);
 
 
 
