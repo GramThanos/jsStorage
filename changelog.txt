@@ -1,0 +1,21 @@
+/*
+ * jsStorage
+ * Author:
+ *     Grammatopoulos Athanasios - Vasileios
+ * License : The MIT License (MIT)
+ */
+
+
+
+• [0.2.0 Beta] - 2016-12-07 10:32
+	• Fixed
+		- Libary structure changes
+	• Added
+		- Support for window.name as a storage
+		- Conflicts managment
+
+
+
+• [0.1.0 Beta] - 2016-12-07 07:13
+	• Fixed
+		- Main library build
