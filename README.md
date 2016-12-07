@@ -1,7 +1,4 @@
 # jsStorage
-A simple javascript library to use as storage the localStorage, sessionStorage, cookies, window.name with the same API
-
-# jsStorage
 A simple javascript library to use as storage with the same API the :
  > localStorage
  > sessionStorage
