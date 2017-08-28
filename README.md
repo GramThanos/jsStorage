@@ -24,7 +24,7 @@ You can add it on your page's head or body.
 
 ### jsStorage call
 
-You can call jsAppend using the variables *jS* or *jsStorage*.
+You can call jsStorage using the variables *jS* or *jsStorage*.
 
 For example lets set up a cookie storage.
 
